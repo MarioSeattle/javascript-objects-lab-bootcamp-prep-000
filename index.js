@@ -22,7 +22,7 @@ function deleteFromObjectByKey(object, key){
   
   var cloneObject = Object.assign({}, object)
   
-  delete cloneObject.object
+  delete cloneObject[key]
   
   return object;
   
