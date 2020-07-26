@@ -39,7 +39,7 @@ function destructiveDeleteFromObjectByKey(object, key){
   
  delete object[key];
  
- returns object;
+ return object;
   
   
   
